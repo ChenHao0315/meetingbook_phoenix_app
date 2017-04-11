@@ -9,13 +9,14 @@
   </parent>
   <artifactId>meetingbook_phoenix_admin</artifactId>
   <name>meetingbook_phoenix_admin</name>
+  <packaging>war</packaging>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
  		<dependency>
-			<groupId>cn.meetingbook.phoenix</groupId>
+			<groupId>cn.meetingbook</groupId>
 			<artifactId>meetingbook_phoenix_api</artifactId>
 			<version>${project.version}</version>
 		</dependency>

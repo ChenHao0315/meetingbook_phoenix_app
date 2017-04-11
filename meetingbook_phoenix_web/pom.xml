@@ -7,17 +7,16 @@
     <artifactId>meetingbook_phoenix_app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>cn.meetingbook</groupId>
   <artifactId>meetingbook_phoenix_web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>meetingbook_phoenix_web</name>
+  <packaging>war</packaging>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
  	 <dependency>
-			<groupId>cn.meetingbook.phoenix</groupId>
+			<groupId>cn.meetingbook</groupId>
 			<artifactId>meetingbook_phoenix_api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
