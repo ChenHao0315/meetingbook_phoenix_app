@@ -17,7 +17,7 @@
 	</bean> 
 
 	<!-- dubbo通用配置 -->
-	<dubbo:application name="meetingbook_phoenix_web" />
+	<dubbo:application name="meetingbook_phoenix_admin" />
 	<!-- <dubbo:registry id="meetingbook_phoenix_web" protocol="zookeeper"
 		address="${zkAddress}"  />
 	<dubbo:protocol name="dubbo" server="netty" serialization="hessian2" 
@@ -26,6 +26,6 @@
 	<dubbo:consumer timeout="10000" retries="0" check="false"/>
 	
 	<!-- 注册中心配置 -->
-	<dubbo:registry id="meetingbook_phoenix_zk" protocol="zookeeper" address="${zkAddress}" check="false"/>
+	<dubbo:registry id="meetingbook_phoenix_admin_zk" protocol="zookeeper" address="${zkAddress}" check="false"/>
 		
 </beans>
